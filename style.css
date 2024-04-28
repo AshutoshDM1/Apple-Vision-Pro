@@ -20,11 +20,74 @@ body {
 #page1 {
   height: 100vh;
   width: 100%;
-  background: #2f2f2f;
+  /* background: #2f2f2f; */
+  position: relative;
 }
+#video {
+  height: 92%;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.nav {
+  position: relative;
+  height: 8%;
+  background: t;
+
+  width: 40%;
+  top: 0;
+  display: flex;
+  color: rgb(124, 124, 124);
+  left: 30%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav h1 {
+  font-size: 1vw;
+  cursor: pointer;
+}
+#logo {
+  height: 40px;
+  background: #000000;
+  cursor: pointer;
+}
+#logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+.nav h2 {
+  font-size: 0.8vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+#logoText {
+  position: absolute;
+  top: 75%;
+  height: fit-content;
+  width: 40%;
+  left: 30%;
+  /* background: #fffcfc; */
+  text-align: center;
+}
+#logoText h1 {
+  color: rgb(219, 219, 219);
+}
+
 #page2 {
   height: 100vh;
   width: 100%;
   background: #565656;
 }
-
