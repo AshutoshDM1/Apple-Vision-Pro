@@ -25,5 +25,20 @@ ScrollTrigger.scrollerProxy("#main", {
 });
 
 ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
-
 ScrollTrigger.refresh();
+
+let tl = gsap.timeline({});
+tl.to("#page2>h1",{
+  y:-1000,
+  duration:4,
+  delay:5,
+  scrollTrigger: {
+    trigger: "#page2",
+    scroller: "#main" ,
+    markers: true,
+    start : "top 0%",
+    end : "top -20%",
+    scrub: 4,
+    pin:true,
+  },
+})
