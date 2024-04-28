@@ -56,18 +56,18 @@ tl.to("#page3>h1",{
     pin:true,
   },
 })
-let scrollbar = document.querySelector('.c-scrollbar_thumb ');
-gsap.to("#page4",{
-  onStart:function() {
-    console.log("page 4");
-    document.querySelector("#page4").addEventListener("mouseenter", function(e) {
-      scrollbar.style.backgroundColor = "Black"
-    })
-    document.querySelector("#page4").addEventListener("mouseover", function(e) {
-      scrollbar.style.backgroundColor = "Black"
-    })
-    document.querySelector("#page4").addEventListener("mouseleave", function(e) {
-      scrollbar.style.backgroundColor = "white"
-    })
-  },
-})
+// let scrollbar = document.querySelector('.c-scrollbar_thumb ');
+// gsap.to("#page4",{
+//   onStart:function() {
+//     console.log("page 4");
+//     document.querySelector("#page4").addEventListener("mouseenter", function(e) {
+//       scrollbar.style.backgroundColor = "Black"
+//     })
+//     document.querySelector("#page4").addEventListener("mouseover", function(e) {
+//       scrollbar.style.backgroundColor = "Black"
+//     })
+//     document.querySelector("#page4").addEventListener("mouseleave", function(e) {
+//       scrollbar.style.backgroundColor = "white"
+//     })
+//   },
+// })
