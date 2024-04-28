@@ -116,4 +116,36 @@ body {
   margin: 2px;
   cursor: -webkit-grab;
   cursor: grab;
+  /* transition: all ease-in 1s; */
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+}
+
+#page3 video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#page3 h1 {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  /* background: #000; */
+  font-size: 2.6vw;
+  top: 75%;
+}
+
+#page4 {
+  height: 100vh;
+  width: 100%;
+  background: #ffffff;
+}
+#page5 {
+  height: 100vh;
+  width: 100%;
+  background: #000000;
 }
